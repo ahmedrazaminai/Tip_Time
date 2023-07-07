@@ -2,9 +2,14 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.TipTime" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor" tools:targetApi="21" >?attr/colorSurface</item>
         <item name="colorPrimary">@color/green</item>
         <item name="colorOnPrimary">#fff</item>
         <item name="colorSurface">@color/green</item>
+
+        <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.OutlinedBox</item>
+        <item name="radioButtonStyle">@style/Widget.TipTime.CompoundButton.RadioButton</item>
+        <item name="switchStyle">@style/Widget.TipTime.CompoundButton.Switch</item>
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
