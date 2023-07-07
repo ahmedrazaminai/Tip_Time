@@ -19,7 +19,8 @@
             app:layout_constraintBottom_toBottomOf="@id/cost_of_service"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/cost_of_service"
-            app:srcCompat="@drawable/ic_store" />
+            app:srcCompat="@drawable/ic_store"
+            tools:ignore="ImageContrastCheck" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/cost_of_service"
@@ -28,8 +29,6 @@
             android:layout_marginStart="16dp"
             android:hint="@string/cost_of_service"
             android:importantForAutofill="no"
-            android:minHeight="48dp"
-            android:textColorHint="#78909C"
             app:layout_constraintStart_toEndOf="@id/icon_cost_of_service"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -38,7 +37,9 @@
                 android:id="@+id/cost_of_service_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:inputType="numberDecimal" />
+                android:inputType="numberDecimal"
+                android:textColorHint="#546E7A"
+                tools:ignore="TextContrastCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -50,7 +51,8 @@
             app:layout_constraintBottom_toBottomOf="@id/service_question"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/service_question"
-            app:srcCompat="@drawable/ic_service" />
+            app:srcCompat="@drawable/ic_service"
+            tools:ignore="ImageContrastCheck" />
 
         <TextView
             android:id="@+id/service_question"
@@ -99,7 +101,8 @@
             app:layout_constraintBottom_toBottomOf="@id/round_up_switch"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/round_up_switch"
-            app:srcCompat="@drawable/ic_round_up" />
+            app:srcCompat="@drawable/ic_round_up"
+            tools:ignore="ImageContrastCheck" />
 
         <com.google.android.material.switchmaterial.SwitchMaterial
             android:id="@+id/round_up_switch"
